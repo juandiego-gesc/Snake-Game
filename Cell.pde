@@ -1,7 +1,7 @@
 class Cell {
   // A cell object knows about its location in the grid 
   // as well as its size with the variables x,y,w,h
-  float x,y,   // x,y location
+  float x,y,   // location
         size;   // width and height
 
   float limitX, limitY;

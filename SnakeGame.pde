@@ -26,9 +26,8 @@ PFont f;
 void setup() 
 {
     frameRate(10); //ideal framerate
-    //frameRate(1); //test framerate
     size(600, 600);
-    size = 25; //Lado de cada cuadrado o cell
+    size = 25;
 
 
     f  = createFont("Courier", 16,true); // Courier, 16 point, anti-aliasing on
@@ -196,8 +195,6 @@ void move(Snake s, int prevX, int prevY)
         s.directions[2] = false;
         s.directions[3] = false;
     }
-
-    //por aqui se debe poder hacer algo recursivamente
 }
 
 void keyPressed() {
